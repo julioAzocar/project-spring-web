@@ -1,0 +1,27 @@
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:f="http://java.sun.com/jsf/core"      
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:p="http://primefaces.org/ui">
+<h:head>
+<title>Pantalla Login</title>
+
+ <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+ 
+<!-- <h:outputStylesheet library="css" name="misEstilos.css"></h:outputStylesheet>-->
+
+</h:head>
+
+<h:body>
+      
+	<div class="ui-fluid">
+      	
+	<p:outputLabel value="#{springJsfController.nombreEmpresa}" 
+	style="float:left"> </p:outputLabel>
+
+	<p:outputLabel value="#{springJsfController.nombreEmpleado}" 
+	style="float:left"> </p:outputLabel>
+	
+	</div>
+		
+</h:body>
+</html>
